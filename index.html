@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compilation CpE-PC 311</title>
+    <link rel="icon" href="Pictures\CTU_new_logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-left-side">
+            <div class="logo-svg">
+                <svg viewBox="0 0 60 100" width="1.5rem" height="2.5rem"> <!-- Form J letter -->
+                    <path d="M30,5 l25,0 -10,0 0,75 c0,15 -30,15 -30,-10" fill="none" stroke="white" stroke-width="8"/>
+                </svg>
+                <svg viewBox="0 0 80 100" width="1.5rem" height="2.5rem"> <!-- Form D letter -->
+                    <path d="M10,-10 C100,10 100,100 10,100z" fill="none" stroke="white" stroke-width="10"/>
+                </svg>
+            </div>
+            <div class="nav-title">Intro</div>
+        </div>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="https://raw.githack.com/Dalmanski/My-Mp3-Website-2/main/main.html" target="_blank">Mp3</a>
+            <a href="https://raw.githack.com/Dalmanski/My-article-in-CTU/main/index.html" target="_blank">CTU Article</a>
+            <a href="https://raw.githack.com/Dalmanski/My-article-2/main/index.html" target="_blank">Fav Article</a>
+            <a href="#" id="loginBtn">Login</a>
+        </nav>
+    </header> 
+    <footer>
+        <i>Created by: 2024-2025</i>
+    </footer>
+    <div class="intro-container">
+        <h1>Compilation</h1>
+        <h2>CpE PC 311 - Software Development 1</h2>
+        <h6>Jayrald John C. Dalman</h6>
+        <h6>BSCpE 3 Day</h6>
+    </div>
+    <div id="loginModal" class="modal">
+        <div class="modal-content-in-form">
+            <span id="closeLogin" class="close">&times;</span>
+            <h2>Login</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Log-in</button>
+            </form>
+            <p>Don't have an account? <a href="#" id="signupLink">Sign-up here</a></p>
+        </div>
+    </div>
+
+    <div id="signupModal" class="modal">
+        <div class="modal-content-in-form">
+            <span id="closeSignup" class="close">&times;</span>
+            <h2>Sign-up</h2>
+            <form>
+                <label for="signupUsername">Username:</label>
+                <input type="text" id="signupUsername" name="signupUsername" required>
+                <label for="signupEmail">Email:</label>
+                <input type="email" id="signupEmail" name="signupEmail" required>
+                <label for="signupPassword">Password:</label>
+                <input type="password" id="signupPassword" name="signupPassword" required>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <button type="submit">Sign-up</button>
+            </form>
+        </div>
+    </div>    
+    <script src="script.js"></script>    
+</body>
+</html>
